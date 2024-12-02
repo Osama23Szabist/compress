@@ -3,6 +3,7 @@ class sll:
         def __init__(self,data):
             self.data = data
             self.next = None
+            self.loc= []
     def __init__(self):
         self.head = None
 
