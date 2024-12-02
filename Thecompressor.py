@@ -14,7 +14,7 @@ for i in range(0,len(text)):#breaking it down word by word
                 if info[1] in word:
                     flag = False
                     break
-            if flag == True:
+            if flag:
                 listofwords.append((1,word,i))
             else:
                 for k in range(0,len(listofwords)):
