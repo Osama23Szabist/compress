@@ -20,12 +20,6 @@ for i in range(0,len(text)):#breaking it down word by word
         word += text[i]
 
 
-newlist = linkList.sll()
-
-"""for i in range(0,len(listofwords)):#calci=ualting to see which word needs to be removed 
-    if ((len(listofwords[i][1])*8) * listofwords[i][0]) >(len(listofwords[i][1])*8)+10:#need to refine this here
-        newlist.insert(listofwords[i])"""
-
 listofwords.print()
 
     
