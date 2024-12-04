@@ -1,11 +1,13 @@
 class sll():
     class node():
+        
         def __init__(self,data,loc):
             self.count = 1
             self.data = data
             self.next = None
             self.loc= [loc]
             self.worthit = False
+
     def __init__(self):
         self.head = None
         self.bitsaved = 0
