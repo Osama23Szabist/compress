@@ -1,5 +1,5 @@
-class sll:
-    class node:
+class sll():
+    class node():
         def __init__(self,data,loc):
             self.count = 1
             self.data = data
@@ -19,9 +19,28 @@ class sll:
         while (temp.next != None):
             temp = temp.next
         temp.next = newnode
+
+    def sort(self):
+        temp = self.head
+        pre = self.head
+        temp = temp.next#wait need min pre too should have when with dll
+        while temp != None:
+            hold = temp
+            minNode = hold
+            while hold != None:
+                if hold.loc[0] < minNode.loc[0]:
+                    minNode = hold
+                hold = hold.next
+            if minNode != temp:
+                temphold = pre.next
+                pre.next = minNode
+            pre = temp
+            temp = temp.next
+
     
     def mod(self,nodeloc,loc):
         nodeloc.loc.append(loc)
+        nodeloc.loc.sort(reverse = True)#we will make our own sort
         nodeloc.count += 1
         ogsize = (len(nodeloc.data)*8)*nodeloc.count
         newsize = 0
@@ -35,11 +54,31 @@ class sll:
     def search(self,data):
         temp = self.head
         while(temp != None):
-            if temp.data in data:
+            if temp.data == data:
                 return True, temp
             temp = temp.next
         return False, None
-            
+    
+    def decrese(self):
+        temp = self.head
+        pre = self.head
+        while temp != None:
+            if not temp.worthit:
+                if temp == self.head:
+                    self.head = temp.next
+                else:
+                    pre.next = temp.next
+            else:
+                pre = temp
+            temp = temp.next
+
+    def removeData(self,text):
+        temp = self.head
+        less_size = 0
+        while temp != None:
+            less_size += temp.count
+            text.remove(temp.data)
+        return text,less_size
 
     def print(self):
         temp = self.head

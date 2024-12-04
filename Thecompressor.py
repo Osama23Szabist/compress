@@ -1,4 +1,4 @@
-import linkList
+import linkList, time
 with open ("story.txt","r",encoding='utf-8') as file:#reading text file
     text = file.read()
 
@@ -19,7 +19,17 @@ for i in range(0,len(text)):#breaking it down word by word
     else:
         word += text[i]
 
-
 listofwords.print()
+
+"""listofwords.decrese()
+before_size = len(text)
+less_size, text = listofwords.removeData(text)
+after_size = text
+if before_size-less_size == after_size:
+    print("All good")
+else:
+    print("problem")"""
+
+
 
     
