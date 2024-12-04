@@ -22,20 +22,23 @@ class sll():
             temp = temp.next
         temp.next = newnode
 
-    def sort(self):
+    def sort(self):#should have used dll :( should use megre sort 
         temp = self.head
         pre = self.head
-        temp = temp.next#wait need min pre too should have when with dll
+        temp = temp.next
         while temp != None:
             hold = temp
             minNode = hold
             while hold != None:
-                if hold.loc[0] < minNode.loc[0]:
+                if hold.loc[0] > minNode.loc[0]:
+                    minpre = pre
                     minNode = hold
                 hold = hold.next
             if minNode != temp:
                 temphold = pre.next
                 pre.next = minNode
+                tempmin = minpre.next
+                minpre.next = temphold
             pre = temp
             temp = temp.next
 
