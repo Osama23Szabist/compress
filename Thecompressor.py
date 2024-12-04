@@ -19,6 +19,7 @@ for i in range(0,len(text)):#breaking it down word by word
     else:
         word += text[i]
 
+listofwords.decrese()
 listofwords.print()
 
 """listofwords.decrese()
