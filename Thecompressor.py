@@ -1,9 +1,9 @@
-import linkList, time
+import wordsll, time
 with open ("story.txt","r",encoding='utf-8') as file:#reading text file
     text = file.read()
 
 word = ""
-listofwords = linkList.sll()
+listofwords = wordsll.word()
 wordCounter = 0
 
 for i in range(0,len(text)):#breaking it down word by word
@@ -21,6 +21,7 @@ for i in range(0,len(text)):#breaking it down word by word
 
 listofwords.decrese()
 listofwords.print()
+
 
 """listofwords.decrese()
 before_size = len(text)
