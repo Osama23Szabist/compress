@@ -8,6 +8,15 @@ class dll():
     def __init__(self):
         self.head = None
         self.tail = None
+    
+    def size(self):
+        temp = self.head
+        count = 0
+        while temp != None:# count += 2 to improve the time
+            count +=1
+            temp = temp.next
+        return count
+
 
     def insert (self,data,loc):
         if self.head == None:

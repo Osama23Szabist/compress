@@ -21,9 +21,30 @@ for i in range(0,len(text)):#breaking it down word by word
 
 listofwords.decrese()
 listofwords.sort()
-listofwords.print()
 lookuptable = wordsll.word()
+num = listofwords.size()
+print(len(text))
+for i in range(0,num):
+    tail = listofwords.tail
+    while tail != None:
+        if len(tail.loc)>0 and tail.loc[0] > 0:
+            for j in range(tail.loc[0]-(len(tail.data)),tail.loc[0]):
+                hold = text
+                text = hold[0:j]
+                text += hold[j+1:len(hold)]
+            flag , thenode = lookuptable.search(tail.data)
+            if flag:
+                lookuptable.mod(thenode,tail.loc[0])
+            else:
+                lookuptable.insert(tail.data,tail.loc[0])
+            tail.loc.remove(tail.loc[0])
+            if len(tail.loc) == 0:
+                tail.loc.append(0)
+        tail = tail.pre
+    listofwords.sort()
 
+print(len(text))
+listofwords.print()#need to confirm all unwanted data is deleted or not
 
 
 """listofwords.decrese()
