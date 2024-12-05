@@ -1,51 +1,89 @@
-class sll():
+class dll():
     class node(): 
-        def __init__(self,data):
+        def __init__(self,data,pre):
             self.data = data
             self.next = None
+            self.pre = pre
 
     def __init__(self):
         self.head = None
+        self.tail = None
 
     def insert (self,data,loc):
-        newnode = self.node(data,loc)
         if self.head == None:
-            self.head = newnode
+            newnode = self.node(data,loc)
+            self.head = self.tail= newnode
             return
         temp = self.head
         while (temp.next != None):
             temp = temp.next
+        newnode = self.node(data,loc,temp)
         temp.next = newnode
+        self.tail = newnode
 
-    def sort(self):#should have used dll :( should use megre sort 
-        def inserttemp(self,head,anode):
-            newnode = self.node(anode.data,anode.loc)
-            newnode.count = anode.count
-            newnode.worthit = anode.worthit
-            if head == None:
-                head = newnode
-            else:
-                temp = head
-                while (temp.next != None):
-                    temp = temp.next
-                temp.next = newnode
+    def sort(self):
+        if not self.head or not self.head.next:
+            return  # List is already sorted or empty
+        
+        self.head = self._merge_sort_rec(self.head)
+    
+    def _merge_sort_rec(self, head):
+        if not head or not head.next:
+            return head  # Base case: a single node or empty list is sorted
+
+        # Step 1: Split the list into two halves
+        middle = self._get_middle(head)
+        next_to_middle = middle.next
+        middle.next = None
+
+        # Recursively sort both halves
+        left = self._merge_sort_rec(head)
+        right = self._merge_sort_rec(next_to_middle)
+
+        # Step 2: Merge the sorted halves
+        sorted_list = self._merge_sorted_lists(left, right)
+        return sorted_list
+
+    def _get_middle(self, head):
+        # Use the slow and fast pointer approach to find the middle
+        if not head:
+            return head
+        
+        slow = head
+        fast = head.next
+
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+
+        return slow
+
+    def _merge_sorted_lists(self, left, right):
+        if not left:
+            return right
+        if not right:
+            return left
+
+        # Choose the smaller value to continue merging
+        if left.loc[0] <= right.loc[0]:
+            result = left
+            result.next = self._merge_sorted_lists(left.next, right)
+        else:
+            result = right
+            result.next = self._merge_sorted_lists(left, right.next)
+
+        return result
+
+    # Utility functions for testing
+    def append(self, data, loc):
+        new_node = self.Node(data, loc)
+        if not self.head:
+            self.head = new_node
+            return
         temp = self.head
-        temp = temp.next
-        newhead = None
-        while temp != None:
-            hold = temp
-            minNode = hold
-            while hold != None:
-                if hold.loc[0] > minNode.loc[0]:
-                    minNode = hold
-                hold = hold.next
-            if minNode != temp:
-                inserttemp(newhead,minNode)
-            else:
-                inserttemp(newhead,temp) 
-            inserttemp(newhead,minNode)
+        while temp.next:
             temp = temp.next
-        self.head = newhead
+        temp.next = new_node
 
     def search(self,data):
         temp = self.head

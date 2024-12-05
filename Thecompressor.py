@@ -22,6 +22,8 @@ for i in range(0,len(text)):#breaking it down word by word
 listofwords.decrese()
 listofwords.sort()
 listofwords.print()
+lookuptable = wordsll.word()
+
 
 
 """listofwords.decrese()

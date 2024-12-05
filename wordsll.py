@@ -1,8 +1,8 @@
-from linkList import sll
-class word(sll):
-    class node(sll.node):
-        def __init__(self,data,loc):
-            super().__init__(data)
+from linkList import dll
+class word(dll):
+    class node(dll.node):
+        def __init__(self,data,loc,pre = None):
+            super().__init__(data,pre)
             if type(loc) == list:
                 self.loc = loc
             else:

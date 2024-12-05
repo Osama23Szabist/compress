@@ -1,1 +1,2 @@
-from linkList import sll
+from linkList import dll
+#we will have a new look up table for comman words
