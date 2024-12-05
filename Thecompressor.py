@@ -20,6 +20,7 @@ for i in range(0,len(text)):#breaking it down word by word
         word += text[i]
 
 listofwords.decrese()
+listofwords.sort()
 listofwords.print()
 
 

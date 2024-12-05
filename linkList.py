@@ -18,24 +18,34 @@ class sll():
         temp.next = newnode
 
     def sort(self):#should have used dll :( should use megre sort 
+        def inserttemp(self,head,anode):
+            newnode = self.node(anode.data,anode.loc)
+            newnode.count = anode.count
+            newnode.worthit = anode.worthit
+            if head == None:
+                head = newnode
+            else:
+                temp = head
+                while (temp.next != None):
+                    temp = temp.next
+                temp.next = newnode
         temp = self.head
-        pre = self.head
         temp = temp.next
+        newhead = None
         while temp != None:
             hold = temp
             minNode = hold
             while hold != None:
                 if hold.loc[0] > minNode.loc[0]:
-                    minpre = pre
                     minNode = hold
                 hold = hold.next
             if minNode != temp:
-                temphold = pre.next
-                pre.next = minNode
-                tempmin = minpre.next
-                minpre.next = temphold
-            pre = temp
+                inserttemp(newhead,minNode)
+            else:
+                inserttemp(newhead,temp) 
+            inserttemp(newhead,minNode)
             temp = temp.next
+        self.head = newhead
 
     def search(self,data):
         temp = self.head
