@@ -47,6 +47,8 @@ print(len(text))
 listofwords.print()#need to confirm all unwanted data is deleted or not
 
 
+
+
 """listofwords.decrese()
 before_size = len(text)
 less_size, text = listofwords.removeData(text)
