@@ -1,0 +1,972 @@
+a*01
+A*00
+b*011
+B*010
+c*001
+C*000
+d*0111
+D*0110
+e*0101
+E*0100
+f*0011
+F*0010
+g*0001
+G*0000
+h*01111
+H*01110
+i*01101
+I*01100
+j*01011
+J*01010
+k*01001
+K*01000
+l*00111
+L*00110
+m*00101
+M*00100
+n*00011
+N*00010
+o*00001
+O*00000
+p*011111
+P*011110
+q*011101
+Q*011100
+r*011011
+R*011010
+s*011001
+S*011000
+t*010111
+T*010110
+u*010101
+U*010100
+v*010011
+V*010010
+w*010001
+W*010000
+x*001111
+X*001110
+y*001101
+Y*001100
+z*001011
+Z*001010
+0*001001
+1*001000
+2*000111
+3*000110
+4*000101
+5*000100
+6*000011
+7*000010
+8*000001
+9*000000
+!*0111111
+?*0111110
+**0111101
+.*0111100
+'*0111011
+@*0111010
+#*0111001
+%*0111000
+^*0110111
+&*0110110
+;*0110101
+:*0110100
+-*0110011
+_*0110010
+/*0110001
++*0110000
+=*0101111
+<*0101110
+>*0101101
+~*0101100
+[*0101011
+]*0101010
+{*0101001
+}*0101000
+he*0100111
+He*0100110
+it*0100101
+is*0100100
+up*0100011
+we*0100010
+me*0100001
+of*0100000
+on*0011111
+in*0011110
+at*0011101
+or*0011100
+be*0011011
+to*0011010
+by*0011001
+an*0011000
+as*0010111
+if*0010110
+me*0010101
+do*0010100
+no*0010011
+up*0010010
+am*0010001
+us*0010000
+my*0001111
+go*0001110
+oh*0001101
+hi*0001100
+ok*0001011
+ah*0001010
+id*0001001
+ex*0001000
+um*0000111
+yo*0000110
+et*0000101
+ad*0000100
+i.e*0000011
+she*0000010
+She*0000001
+why*0000000
+how*01111111
+now*01111110
+man*01111101
+and*01111100
+but*01111011
+the*01111010
+for*01111001
+not*01111000
+you*01110111
+all*01110110
+are*01110101
+can*01110100
+was*01110011
+one*01110010
+our*01110001
+out*01110000
+use*01101111
+who*01101110
+get*01101101
+new*01101100
+let*01101011
+had*01101010
+his*01101001
+its*01101000
+day*01100111
+any*01100110
+may*01100101
+say*01100100
+too*01100011
+off*01100010
+per*01100001
+end*01100000
+set*01011111
+run*01011110
+own*01011101
+own*01011100
+old*01011011
+two*01011010
+way*01011001
+see*01011000
+yes*01010111
+top*01010110
+bad*01010101
+big*01010100
+red*01010011
+boy*01010010
+put*01010001
+job*01010000
+few*01001111
+yet*01001110
+lie*01001101
+key*01001100
+try*01001011
+low*01001010
+key*01001001
+Ali*01001000
+The*01000111
+name*01000110
+bear*01000101
+kind*01000100
+that*01000011
+with*01000010
+will*01000001
+have*01000000
+been*00111111
+just*00111110
+more*00111101
+only*00111100
+than*00111011
+from*00111010
+some*00111001
+into*00111000
+time*00110111
+down*00110110
+made*00110101
+tell*00110100
+love*00110011
+know*00110010
+live*00110001
+much*00110000
+hard*00101111
+good*00101110
+help*00101101
+come*00101100
+back*00101011
+look*00101010
+find*00101001
+side*00101000
+want*00100111
+give*00100110
+take*00100101
+also*00100100
+long*00100011
+must*00100010
+call*00100001
+play*00100000
+stop*00011111
+work*00011110
+part*00011101
+deal*00011100
+year*00011011
+into*00011010
+real*00011001
+move*00011000
+idea*00010111
+step*00010110
+wish*00010101
+away*00010100
+show*00010011
+unit*00010010
+sand*00010001
+busy*00010000
+jump*00001111
+keep*00001110
+this*00001101
+play*00001100
+rose*00001011
+show*00001010
+vote*00001001
+your*00001000
+zero*00000111
+burn*00000110
+cost*00000101
+dash*00000100
+edge*00000011
+fame*00000010
+fold*00000001
+gape*00000000
+grip*011111111
+gush*011111110
+gnaw*011111101
+hope*011111100
+hair*011111011
+hint*011111010
+hunt*011111001
+herd*011111000
+mate*011110111
+name*011110110
+note*011110101
+paid*011110100
+plan*011110011
+here*011110010
+king*011110001
+i am*011110000
+plane*011101111
+sleep*011101110
+watch*011101101
+paint*011101100
+drink*011101011
+angle*011101010
+quick*011101001
+touch*011101000
+brown*011100111
+shelf*011100110
+sight*011100101
+candy*011100100
+laugh*011100011
+begin*011100010
+glove*011100001
+fruit*011100000
+clean*011011111
+style*011011110
+about*011011101
+above*011011100
+after*011011011
+again*011011010
+agree*011011001
+alarm*011011000
+alien*011010111
+amaze*011010110
+anger*011010101
+apple*011010100
+apply*011010011
+audio*011010010
+award*011010001
+aware*011010000
+begin*011001111
+below*011001110
+bench*011001101
+bills*011001100
+bored*011001011
+brave*011001010
+bread*011001001
+build*011001000
+there*011000111
+candy*011000110
+cause*011000101
+chain*011000100
+chart*011000011
+chase*011000010
+cheap*011000001
+cheer*011000000
+child*010111111
+class*010111110
+clean*010111101
+clear*010111100
+close*010111011
+cloud*010111010
+coach*010111001
+color*010111000
+cover*010110111
+cycle*010110110
+dance*010110101
+death*010110100
+doing*010110011
+early*010110010
+earth*010110001
+email*010110000
+empty*010101111
+enter*010101110
+equal*010101101
+error*010101100
+event*010101011
+exact*010101010
+extra*010101001
+false*010101000
+favor*010100111
+first*010100110
+focus*010100101
+force*010100100
+front*010100011
+funny*010100010
+grade*010100001
+grape*010100000
+green*010011111
+group*010011110
+happy*010011101
+heart*010011100
+heavy*010011011
+honor*010011010
+house*010011001
+hover*010011000
+human*010010111
+image*010010110
+inner*010010101
+input*010010100
+issue*010010011
+jolly*010010010
+judge*010010001
+their*010010000
+jumpy*010001111
+joint*010001110
+jolly*010001101
+hello*010001100
+world*010001011
+laugh*010001010
+large*010001001
+laser*010001000
+leafy*010000111
+lemon*010000110
+level*010000101
+light*010000100
+lucky*010000011
+lunar*010000010
+major*010000001
+march*010000000
+medal*001111111
+money*001111110
+music*001111101
+north*001111100
+noble*001111011
+night*001111010
+noise*001111001
+occur*001111000
+offer*001110111
+order*001110110
+other*001110101
+paint*001110100
+party*001110011
+place*001110010
+plant*001110001
+story*001110000
+power*001101111
+pride*001101110
+prime*001101101
+queen*001101100
+quick*001101011
+quiet*001101010
+ready*001101001
+right*001101000
+round*001100111
+large*001100110
+score*001100101
+serve*001100100
+shape*001100011
+house*001100010
+silly*001100001
+smart*001100000
+space*001011111
+start*001011110
+store*001011101
+study*001011100
+style*001011011
+super*001011010
+sweet*001011001
+taken*001011000
+teach*001010111
+thank*001010110
+think*001010101
+throw*001010100
+tight*001010011
+total*001010010
+truth*001010001
+under*001010000
+unity*001001111
+value*001001110
+vapor*001001101
+video*001001100
+visit*001001011
+voice*001001010
+group*001001001
+watch*001001000
+water*001000111
+where*001000110
+woman*001000101
+world*001000100
+young*001000011
+youth*001000010
+water*001000001
+zebra*001000000
+apple*000111111
+zesty*000111110
+abuse*000111101
+adore*000111100
+alert*000111011
+allow*000111010
+anger*000111001
+askew*000111000
+bless*000110111
+peace*000110110
+beach*000110101
+caste*000110100
+laugh*000110011
+climb*000110010
+candy*000110001
+chirp*000110000
+money*000101111
+light*000101110
+farce*000101101
+feast*000101100
+field*000101011
+flask*000101010
+flood*000101001
+right*000101000
+flock*000100111
+smile*000100110
+dance*000100101
+music*000100100
+grape*000100011
+train*000100010
+mount*000100001
+dream*000100000
+black*000011111
+white*000011110
+heart*000011101
+house*000011100
+hatch*000011011
+helic*000011010
+later*000011001
+level*000011000
+march*000010111
+maker*000010110
+table*000010101
+match*000010100
+meant*000010011
+merry*000010010
+model*000010001
+mount*000010000
+mouth*000001111
+grass*000001110
+sugar*000001101
+paste*000001100
+chose*000001011
+march*000001010
+Osama*000001001
+strom*000001000
+night*000000111
+stone*000000110
+he is*000000101
+I see*000000100
+school*000000011
+coming*000000010
+i will*000000001
+beauty*000000000
+decide*0111111111
+she is*0111111110
+imagine*0111111101
+see you*0111111100
+bye bye*0111111011
+bad boy*0111111010
+szabist*0111111001
+he will*0111111000
+helpful*0111110111
+come on*0111110110
+I agree*0111110101
+delight*0111110100
+you win*0111110011
+go back*0111110010
+go home*0111110001
+go slow*0111110000
+hang on*0111101111
+very sad*0111101110
+good boy*0111101101
+bad girl*0111101100
+good day*0111101011
+she will*0111101010
+pleasure*0111101001
+they are*0111101000
+big deal*0111100111
+for sure*0111100110
+have fun*0111100101
+let's go*0111100100
+look out*0111100011
+trust me*0111100010
+why not?*0111100001
+go ahead*0111100000
+go first*0111011111
+complete*0111011110
+i like it*0111011101
+good girl*0111011100
+come back*0111011011
+come here*0111011010
+i am good*0111011001
+i am fine*0111011000
+he is bad*0111010111
+i used to*0111010110
+please go*0111010101
+how much?*0111010100
+how many?*0111010011
+lets play*0111010010
+let it go*0111010001
+on my way*0111010000
+i got you*0111001111
+oh my god*0111001110
+I hope so*0111001101
+I love it*0111001100
+I'm ready*0111001011
+go for it*0111001010
+let's see*0111001001
+good luck*0111001000
+take care*0111000111
+that's it*0111000110
+try again*0111000101
+excuse me*0111000100
+pardon me*0111000011
+we’ll see*0111000010
+well done*0111000001
+hard luck*0111000000
+your turn*0110111111
+stay calm*0110111110
+thank you*0110111101
+no biggie*0110111100
+same here*0110111011
+go to hell*0110111010
+university*0110111001
+i hate you*0110111000
+please try*0110110111
+forgive me*0110110110
+he is good*0110110101
+lets sleep*0110110100
+stay happy*0110110011
+i am sorry*0110110010
+be careful*0110110001
+she is bad*0110110000
+good to go*0110101111
+i am going*0110101110
+keep it up*0110101101
+let's talk*0110101100
+no problem*0110101011
+no worries*0110101010
+not at all*0110101001
+not really*0110101000
+on the way*0110100111
+turn it on*0110100110
+what's up?*0110100101
+believe me*0110100100
+I think so*0110100011
+time is up*0110100010
+to be fair*0110100001
+who cares?*0110100000
+you got it*0110011111
+he used to*0110011110
+don’t rush*0110011101
+good night*0110011100
+hang tight*0110011011
+keep going*0110011010
+i love you*0110011001
+time to go*0110011000
+he is going*0110010111
+don't worry*0110010110
+feeling bad*0110010101
+have a seat*0110010100
+have a look*0110010011
+I need help*0110010010
+i trust you*0110010001
+i am eating*0110010000
+forget this*0110001111
+like I said*0110001110
+no big deal*0110001101
+she is good*0110001100
+that's fine*0110001011
+that's okay*0110001010
+turn it off*0110001001
+what's new?*0110001000
+you made it*0110000111
+let me know*0110000110
+turn around*0110000101
+well played*0110000100
+why’s that?*0110000011
+she used to*0110000010
+i like this*0110000001
+programming*0110000000
+i am coming*0101111111
+it’s no use*0101111110
+be yourself*0101111101
+settle down*0101111100
+what a day!*0101111011
+I'm not sure*0101111010
+it's raining*0101111001
+how are you?*0101111000
+i am running*0101110111
+for god sake*0101110110
+look at that*0101110101
+more or less*0101110100
+stay healthy*0101110011
+take it easy*0101110010
+take it slow*0101110001
+that's funny*0101110000
+he is eating*0101101111
+don't forget*0101101110
+good morning*0101101101
+I don’t mind*0101101100
+I’m with you*0101101011
+that’s great*0101101010
+thanks a lot*0101101001
+a little bit*0101101000
+best of luck*0101100111
+to be honest*0101100110
+what a shame*0101100101
+where is it?*0101100100
+all the best*0101100011
+who’s there?*0101100010
+who’s going?*0101100001
+he is coming*0101100000
+I can't wait*0101011111
+are you okay*0101011110
+you’re right*0101011101
+do your best*0101011100
+I don't know*0101011011
+I feel great*0101011010
+they used to*0101011001
+feeling good*0101011000
+i am playing*0101010111
+move forward*0101010110
+no harm done*0101010101
+now or never*0101010100
+don't be shy*0101010011
+who is that?*0101010010
+the same here*0101010001
+try your best*0101010000
+with pleasure*0101001111
+you can do it*0101001110
+keep in touch*0101001101
+that’s enough*0101001100
+i am sleeping*0101001011
+thanks anyway*0101001010
+she is eating*0101001001
+i believe you*0101001000
+what a relief*0101000111
+he is playing*0101000110
+what’s wrong?*0101000101
+it's all good*0101000100
+where to now?*0101000011
+remember this*0101000010
+stay positive*0101000001
+not right now*0101000000
+at the moment*0100111111
+give it a try*0100111110
+go easy on me*0100111101
+i am so happy*0100111100
+help yourself*0100111011
+I did my best*0100111010
+I’m on my way*0100111001
+don't mind me*0100111000
+let’s move on*0100110111
+see you later*0100110110
+he is running*0100110101
+take the lead*0100110100
+think it over*0100110011
+totally agree*0100110010
+turn the page*0100110001
+that's too bad*0100110000
+it’s up to you*0100101111
+think about it*0100101110
+take your time*0100101101
+she is running*0100101100
+it's up to you*0100101011
+what happened?*0100101010
+make it happen*0100101001
+who’s calling?*0100101000
+where are you?*0100100111
+you’re on fire*0100100110
+you’re so kind*0100100101
+you’ve lost me*0100100100
+where to next?*0100100011
+give me a hand*0100100010
+happy birthday*0100100001
+it's not funny*0100100000
+he is sleeping*0100011111
+that's strange*0100011110
+I’m so excited*0100011101
+it makes sense*0100011100
+it’s all right*0100011011
+you look great*0100011010
+let’s hang out*0100011001
+what the hell?*0100011000
+relax a little*0100010111
+you’re welcome*0100010110
+sorry I’m late*0100010101
+she is playing*0100010100
+that’s amazing*0100010011
+that’s awesome*0100010010
+that’s no good*0100010001
+time will tell*0100010000
+you deserve it*0100001111
+you’re awesome*0100001110
+all of a sudden*0100001101
+to be continued*0100001100
+it's time to go*0100001011
+a piece of cake*0100001010
+I wish you well*0100001001
+have a good day*0100001000
+you’re too kind*0100000111
+you’ve got this*0100000110
+let’s meet soon*0100000101
+give me a break*0100000100
+that’s a relief*0100000011
+enjoy your meal*0100000010
+have a good one*0100000001
+I agree totally*0100000000
+you are welcome*0011111111
+I feel so happy*0011111110
+I’m really busy*0011111101
+it's really hot*0011111100
+how's it going?*0011111011
+look who’s here*0011111010
+this is amazing*0011111001
+once in a while*0011111000
+raise your hand*0011110111
+they are eating*0011110110
+try again later*0011110101
+take care of it*0011110100
+that’s so funny*0011110011
+that’s so sweet*0011110010
+this way please*0011110001
+she is sleeping*0011110000
+we need to talk*0011101111
+who’s the boss?*0011101110
+you are awesome*0011101101
+you are so kind*0011101100
+you made my day*0011101011
+that sounds good*0011101010
+it’s no big deal*0011101001
+they are playing*0011101000
+I'm just looking*0011100111
+you’re not alone*0011100110
+I'm good, thanks*0011100101
+I’m here for you*0011100100
+at the same time*0011100011
+we’re good to go*0011100010
+how do you feel?*0011100001
+I didn’t mean to*0011100000
+they are running*0011011111
+I like that idea*0011011110
+I see your point*0011011101
+it's my pleasure*0011011100
+I’m proud of you*0011011011
+long time no see*0011011010
+it’s your choice*0011011001
+let’s grab lunch*0011011000
+what’s the plan?*0011010111
+oh no, not again*0011010110
+what’s the time?*0011010101
+this is not fair*0011010100
+what's going on?*0011010011
+can you help me?*0011010010
+sorry about that*0011010001
+try not to worry*0011010000
+talk to you soon*0011001111
+it's a good idea*0011001110
+hold on a second*0011001101
+what’s the deal?*0011001100
+where do I sign?*0011001011
+who can help me?*0011001010
+you will be fine*0011001001
+they are sleeping*0011001000
+I'm happy for you*0011000111
+I agree with that*0011000110
+how's everything?*0011000101
+thank you so much*0011000100
+keep your head up*0011000011
+let’s make a deal*0011000010
+let’s get started*0011000001
+what should I do?*0011000000
+let’s settle this*0010111111
+talk to you later*0010111110
+no worries at all*0010111101
+on second thought*0010111100
+what’s the point?*0010111011
+what’s your name?*0010111010
+stop bothering me*0010111001
+stop it right now*0010111000
+how was your day?*0010110111
+where did you go?*0010110110
+for goodness sake*0010110101
+to tell the truth*0010110100
+I beg your pardon*0010110011
+when can we meet?*0010110010
+happy anniversary*0010110001
+wish you the best*0010110000
+that’s the spirit*0010101111
+that’s what I mean*0010101110
+it’s your decision*0010101101
+have fun with that*0010101100
+let’s get together*0010101011
+I don't understand*0010101010
+like I said before*0010101001
+look forward to it*0010101000
+made up your mind?*0010100111
+that's a good idea*0010100110
+not that I know of*0010100101
+one step at a time*0010100100
+take a deep breath*0010100011
+I can’t believe it*0010100010
+where should I go?*0010100001
+why are you upset?*0010100000
+what do you think?*0010011111
+this is a bit much*0010011110
+this is going well*0010011101
+where do you live?*0010011100
+you’ve made my day*0010011011
+what's the matter?*0010011010
+why don’t you try?*0010011001
+when are you free?*0010011000
+when in doubt, ask*0010010111
+have some patience*0010010110
+why should I care?*0010010101
+wow, that's amazing*0010010100
+I’m not in the mood*0010010011
+as soon as possible*0010010010
+it’s not a big deal*0010010001
+that’s just perfect*0010010000
+where are you from?*0010001111
+share your thoughts*0010001110
+we’re getting there*0010001101
+it’s so nice of you*0010001100
+thank you very much*0010001011
+that’s a great idea*0010001010
+that’s fine with me*0010001001
+I’m so proud of you*0010001000
+the more the better*0010000111
+sorry to bother you*0010000110
+this isn’t the time*0010000101
+this is what I mean*0010000100
+you can count on me*0010000011
+let’s stay in touch*0010000010
+I see what you mean*0010000001
+have an awesome day*0010000000
+let’s call it a day*0001111111
+I’ll check that out*0001111110
+where should we go?*0001111101
+I’m fine, thank you*0001111100
+it's not a big deal*0001111011
+take it or leave it*0001111010
+it’s not your fault*0001111001
+thanks for your help*0001111000
+don’t worry about it*0001110111
+sorry for being late*0001110110
+it’s out of my hands*0001110101
+what’s your opinion?*0001110100
+how does that sound?*0001110011
+no need to apologize*0001110010
+when’s the deadline?*0001110001
+that's the way it is*0001110000
+this is a no-brainer*0001101111
+this is not the case*0001101110
+can you repeat that?*0001101101
+we all make mistakes*0001101100
+we can work this out*0001101011
+you’re not listening*0001101010
+I’m with you on this*0001101001
+what’s your problem?*0001101000
+thanks for your time*0001100111
+where are you going?*0001100110
+your opinion matters*0001100101
+why did that happen?*0001100100
+where have you been?*0001100011
+you mean a lot to me*0001100010
+it's nice to meet you*0001100001
+thanks for everything*0001100000
+this is not happening*0001011111
+nothing is impossible*0001011110
+keep up the good work*0001011101
+take care of yourself*0001011100
+nothing is guaranteed*0001011011
+I think that’s enough*0001011010
+let me think about it*0001011001
+to be honest with you*0001011000
+when did that happen?*0001010111
+I hope that’s helpful*0001010110
+make yourself at home*0001010101
+better luck next time*0001010100
+this is my first time*0001010011
+to be on the safe side*0001010010
+you’ve got to try this*0001010001
+when will you be done?*0001010000
+when did you get here?*0001001111
+where can I find this?*0001001110
+I’ll keep that in mind*0001001101
+why is that happening?*0001001100
+I’m sorry to hear that*0001001011
+nothing to worry about*0001001010
+you can say that again*0001001001
+it’s totally up to you*0001001000
+what’s wrong with this?*0001000111
+what’s the best option?*0001000110
+look out for each other*0001000101
+we should catch up soon*0001000100
+how's everything going?*0001000011
+look on the bright side*0001000010
+I’m not sure about that*0001000001
+it’s better than nothing*0001000000
+put yourself in my shoes*0000111111
+don’t take it personally*0000111110
+make yourself comfortable*0000111101
+think of it as a challenge*0000111100
+to make a long story short*0000111011
+we’re all in this together*0000111010
+you’ve got to be kidding me*0000111001
+sorry for the inconvenience*0000111000
+what’s the matter with you?*0000110111
+don’t get ahead of yourself*0000110110
+that’s the last thing I need*0000110101
+it’s not the end of the world*0000110100
+you always know how to cheer me up*0000110011
+you took the words right out of my mouth*0000110010

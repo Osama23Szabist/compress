@@ -1,6 +1,6 @@
 class dll():
     class node(): 
-        def __init__(self,data,pre):
+        def __init__(self,data,pre = None):
             self.data = data
             self.next = None
             self.pre = pre
@@ -8,7 +8,7 @@ class dll():
     def __init__(self):
         self.head = None
         self.tail = None
-    
+        
     def size(self):
         temp = self.head
         count = 0
@@ -18,15 +18,15 @@ class dll():
         return count
 
 
-    def insert (self,data,loc):
+    def insert (self,data):
         if self.head == None:
-            newnode = self.node(data,loc)
+            newnode = self.node(data)
             self.head = self.tail= newnode
             return
         temp = self.head
         while (temp.next != None):
             temp = temp.next
-        newnode = self.node(data,loc,temp)
+        newnode = self.node(data,temp)
         temp.next = newnode
         self.tail = newnode
 
