@@ -1,10 +1,32 @@
-import wordsll , os,linkList, gzip
+import wordsll , os,linkList, gzip, time
 from bitarray import bitarray
 
 masterlist = linkList.dll()
 
-if os.path.exists("compressed.im.txt"):
-    os.remove("compressed.im.txt")
+listoffiles = os.listdir(os.getcwd())
+
+dellist =[]
+
+for i in range(0,len(listoffiles)):
+    flag = True
+    if ".txt" not in listoffiles[i] or ".im.txt" in listoffiles[i] or ".gz" in listoffiles[i] or ".zip" in listoffiles[i]:
+        dellist.append(listoffiles[i])
+        flag = False
+    if flag and os.path.isdir(listoffiles[i]):
+        dellist.append(listoffiles[i])
+    
+for data in dellist:
+    listoffiles.remove(data)
+
+while True:
+    for i in range(0,len(listoffiles)):
+        print("Press:",str(i),"For",listoffiles[i])
+    op = int(input())
+    if op >=0 and op < len(listoffiles):
+        break
+    else:
+        print("please pick from the options above")
+        time.sleep(3)
 
 
 def char_convert_binary(word,prelist):
@@ -33,7 +55,7 @@ with open("list.txt","r",encoding='utf-8') as file:
 com = []
 num = 1
 
-with open ("story.txt","r",encoding='utf-8') as file:#reading text file
+with open (listoffiles[op],"r",encoding='utf-8') as file:#reading text file
     text = file.read()
 
 word = ""
@@ -93,8 +115,10 @@ prediv = prediv[1:]
 preend = char_convert_binary("?",prelist)
 preend = preend[1:]
 
+listoffiles[op][0:-4]
 
-with gzip.open("compressed.im.txt", "ab") as file:
+
+with gzip.open(listoffiles[op]+".im.txt", "ab") as file:
     compressed_data = bitarray()
     temp = masterlist.head
     for info in table:
