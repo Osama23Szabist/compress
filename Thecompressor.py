@@ -50,15 +50,7 @@ while True:
         print("please pick from the options above")
         time.sleep(3)
 
-#uptime.start()
-
-def char_convert_binary_normal(word):
-    binary = ''
-    for data in word:
-        hold = bin(ord(data))[2:]
-        hold = hold.zfill(8)
-        binary += hold
-    return binary
+uptime.start()
 
 def char_convert_binary(word,prelist):
     binary = ''
@@ -66,8 +58,6 @@ def char_convert_binary(word,prelist):
         for info in prelist:
             if data == info[0]:
                 binary += info[1]
-            if len(str(info[0])) > len(str(data)):
-                return bitarray()
     return bitarray(binary)
 
 
@@ -95,14 +85,16 @@ word = ""
 listofwords = wordsll.word()
 wordCounter = 0
 
-print("Starting to break down the file to words")
-
 for i in range(0,len(text)):#breaking it down word by word
     if " " in text[i]:
         if len(word) > 0:
             flag, Thenode = listofwords.search(word)
             if flag:
                 listofwords.mod(Thenode,i)
+                for data in prelist:
+                    if data[0] in Thenode.data:
+                        Thenode.worthit = False
+                        break
             else:
                 listofwords.insert(word,i)
             masterlist.insert(word)
@@ -110,8 +102,6 @@ for i in range(0,len(text)):#breaking it down word by word
         wordCounter += 1
     else:
         word += text[i]
-
-print("Breakdown down now testing to see if the word is in prelist")
 
 temp = listofwords.head
 while temp != None:
@@ -123,7 +113,6 @@ while temp != None:
             break           
     temp = temp.next
 
-print("prelist done")
 
 listofwords.prelistCheck()
 listofwords.decrese()
@@ -143,10 +132,7 @@ while temp != None:
             print("I am screwed")
             quit()
     else:
-        hold = char_convert_binary(temp.data,prelist)
-        if len(hold) == 0:
-            hold = char_convert_binary_normal(temp.data)
-        temp.data = hold
+        temp.data = char_convert_binary(temp.data,prelist)
     temp = temp.next
 
 prediv = char_convert_binary("*",prelist)
